@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Test de Inteligencias Múltiples</title>
+<style>
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+  #quizForm {
+    background-image: url('./assets/images/f.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20px; /* Añade algo de espacio alrededor del formulario */
+    border-radius: 10px; /* Borde redondeado para que se vea más agradable */
+    text-align: center;
+  }
+
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    /* Centra el texto en el contenedor */
+}
+
+h1 {
+    color: #e74c3c;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #3498db;
+    font-size: 28px;
+}
+
+h3 {
+    color: #333;
+    font-size: 24px;
+}
+
+p {
+    color: #555;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    text-align: justify;
+    /* Justifica el texto */
+}
+
+.result {
+    background-color: #f1f1f1;
+    border-left: 4px solid #3498db;
+    padding: 15px;
+    margin-bottom: 20px;
+    text-align: left;
+    /* Alinea el texto a la izquierda */
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.strongest {
+    font-weight: bold;
+    color: #3498db;
+}
+
+button {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 12px 24px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, box-shadow 0.3s;
+    margin-top: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+button:hover {
+    background-color: #2980b9;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+}
+
+button:active {
+    background-color: #2c3e50;
+    box-shadow: none;
+}
+.header img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+hr {
+    border: 0;
+    height: 4px;
+    background-image: linear-gradient(to right, #3498db, #f1c40f, #e74c3c);
+    margin: 40px 0;
+    border-radius: 2px;
+}
+
+</style>
+
+</head>
+<body>
+  <div class="container">
+   
+    <div class="header">
+      <h1>Test de Inteligencias Múltiples</h1>
+      <img src="./assets/images/n.png" alt="Descripción de la imagen">
+  </div>
+  <p>JAVIER ROMARIO PEREZ TOTOLA 4to INGENIERIA INFORMATICA</p>
+    <p>El Test de Inteligencias Múltiples de Howard Gardner es una forma de evaluar las diferentes capacidades cognitivas y emocionales de una persona. Gardner propuso que la inteligencia no es un concepto unitario, sino que se compone de varias habilidades distintas, como la verbal, lógico-matemática, visual-espacial, interpersonal, intrapersonal, musical y kinestésica-corporal.</p>
+    <p>Este test consta de 35 preguntas, cada una relacionada con una de estas inteligencias. Por cada respuesta verdadera, se otorga un punto a la inteligencia correspondiente. Al finalizar, se suman los puntos de cada sección para determinar cuáles son tus inteligencias más desarrolladas.</p>
+    <hr> <!-- Línea horizontal -->
+    <form id="quizForm">
+    
+
+        <p>1. Int. Visual espacial: Prefiero hacer un mapa que explicarle a alguien como tiene que llegar.
+        </p>
+        <input type="radio" name="q1" value="1"> Verdadero
+        <input type="radio" name="q1" value="0"> Falso
+
+        <p>2. Int. Intrapersonal: .Si estoy enojado(a) o contento (a) generalmente sé exactamente por qué</p>
+        <input type="radio" name="q2" value="1"> Verdadero
+        <input type="radio" name="q2" value="0"> Falso
+
+        <p>3. Int. Musical-rítmica: Sé tocar (o antes sabía tocar) un instrumento musical.</p>
+        <input type="radio" name="q3" value="1"> Verdadero
+        <input type="radio" name="q3" value="0"> Falso
+
+        <!-- Agrega las preguntas restantes de manera similar -->
+        <p>4. Int. Musical-rítmica: Asocio la música con mis estados de ánimo</p>
+        <input type="radio" name="q4" value="1"> Verdadero
+        <input type="radio" name="q4" value="0"> Falso
+
+        <p>5. Int. Lógico-matemática: Puedo sumar o multiplicar mentalmente con mucha rapidez</p>
+        <input type="radio" name="q5" value="1"> Verdadero
+        <input type="radio" name="q5" value="0"> Falso
+
+        <p>6. Int. Intrapersonal: Puedo ayudar a un amigo a manejar sus sentimientos porque yo lo pude
+          hacer antes en relación a sentimientos parecidos.
+          </p>
+        <input type="radio" name="q6" value="1"> Verdadero
+        <input type="radio" name="q6" value="0"> Falso
+
+        <p>7. Int. Lógico-matemática: Me gusta trabajar con calculadoras y computadores</p>
+        <input type="radio" name="q7" value="1"> Verdadero
+        <input type="radio" name="q7" value="0"> Falso
+
+    
+<p>8. Int. kinestesicacorporal: Aprendo rápido a bailar un ritmo nuevo</p>
+<input type="radio" name="q8" value="1"> Verdadero
+<input type="radio" name="q8" value="0"> Falso
+
+<p>9. Int. Verbal: .No me es difícil decir lo que pienso en el curso de una discusión o debate.</p>
+<input type="radio" name="q9" value="1"> Verdadero
+<input type="radio" name="q9" value="0"> Falso
+
+<p>10. Int. Verbal: Disfruto de una buena charla, discurso o sermón.
+</p>
+<input type="radio" name="q10" value="1"> Verdadero
+<input type="radio" name="q10" value="0"> Falso
+
+<p>11. Int. Visual espacial: Siempre distingo el norte del sur, esté donde esté.</p>
+<input type="radio" name="q11" value="1"> Verdadero
+<input type="radio" name="q11" value="0"> Falso
+
+
+<p>12. Int. Interpersonal: Me gusta reunir grupos de personas en una fiesta o en un evento especial</p>
+<input type="radio" name="q12" value="1"> Verdadero
+<input type="radio" name="q12" value="0"> Falso
+
+<p>13. Int. Musical-rítmica: La vida me parece vacía sin música.
+</p>
+<input type="radio" name="q13" value="1"> Verdadero
+<input type="radio" name="q13" value="0"> Falso
+
+<p>14. Int. Visual espacial:  Siempre entiendo los gráficos que vienen en las instrucciones de equipos o
+  instrumentos.
+  </p>
+<input type="radio" name="q14" value="1"> Verdadero
+<input type="radio" name="q14" value="0"> Falso
+
+
+
+<p>15. Int. Lógico-matemática: Me gusta hacer rompecabezas y entretenerme con juegos electrónicos
+</p>
+<input type="radio" name="q15" value="1"> Verdadero
+<input type="radio" name="q15" value="0"> Falso
+
+<p>16. Int. kinestesicacorporal: Me fue fácil aprender a andar en bicicleta. ( o patines)
+</p>
+<input type="radio" name="q16" value="1"> Verdadero
+<input type="radio" name="q16" value="0"> Falso
+
+<p>17. Int. Verbal: Me enojo cuando oigo una discusión o una afirmación que parece ilógica.
+</p>
+<input type="radio" name="q17" value="1"> Verdadero
+<input type="radio" name="q17" value="0"> Falso
+
+
+<p>18. Int. Interpersonal: Soy capaz de convencer a otros que sigan mis planes.
+</p>
+<input type="radio" name="q18" value="1"> Verdadero
+<input type="radio" name="q18" value="0"> Falso
+
+<p>19. Int. kinestesicacorporal: Tengo buen sentido de equilibrio y coordinación.
+</p>
+<input type="radio" name="q19" value="1"> Verdadero
+<input type="radio" name="q19" value="0"> Falso
+
+<p>20. Int. Lógico-matemática: Con frecuencia veo configuraciones y relaciones entre números con más
+  rapidez y facilidad que otros.</p>
+<input type="radio" name="q20" value="1"> Verdadero
+<input type="radio" name="q20" value="0"> Falso
+
+<p>21. Int. kinestesicacorporal: Me gusta construir modelos ( o hacer esculturas)</p>
+<input type="radio" name="q21" value="1"> Verdadero
+<input type="radio" name="q21" value="0"> Falso
+
+<p>22. Int. Verbal: Tengo agudeza para encontrar el significado de las palabras.</p>
+<input type="radio" name="q22" value="1"> Verdadero
+<input type="radio" name="q22" value="0"> Falso
+
+<p>23. Int. Visual espacial: Puedo mirar un objeto de una manera y con la misma facilidad verlo.
+</p>
+<input type="radio" name="q23" value="1"> Verdadero
+<input type="radio" name="q23" value="0"> Falso
+
+
+
+<p>24. Int. Musical-rítmica:Con frecuencia hago la conexión entre una pieza de música y algún evento
+  de mi vida.</p>
+<input type="radio" name="q24" value="1"> Verdadero
+<input type="radio" name="q24" value="0"> Falso
+
+<p>25. Int. Lógico-matemática:  Me gusta trabajar con números y figuras</p>
+<input type="radio" name="q25" value="1"> Verdadero
+<input type="radio" name="q25" value="0"> Falso
+
+<p>26. Int. Intrapersonal: Me gusta sentarme silenciosamente y reflexionar sobre mis sentimientos
+  íntimos.</p>
+<input type="radio" name="q26" value="1"> Verdadero
+<input type="radio" name="q26" value="0"> Falso
+
+
+<p>27. Int. Visual espacial: Con sólo mirar la forma de construcciones y estructuras me siento a gusto.
+</p>
+<input type="radio" name="q27" value="1"> Verdadero
+<input type="radio" name="q27" value="0"> Falso
+
+<p>28. Int. Musical-rítmica: Me gusta tararear, silbar y cantar en la ducha o cuando estoy sola</p>
+<input type="radio" name="q28" value="1"> Verdadero
+<input type="radio" name="q28" value="0"> Falso
+
+
+
+<p>29. Int. kinestesicacorporal: Soy bueno(a) para el atletismo.
+</p>
+<input type="radio" name="q29" value="1"> Verdadero
+<input type="radio" name="q29" value="0"> Falso
+
+<p>30. Int. Verbal: Me gusta escribir cartas detalladas a mis amigos.</p>
+<input type="radio" name="q30" value="1"> Verdadero
+<input type="radio" name="q30" value="0"> Falso
+
+<p>31. Int. Intrapersonal: Generalmente me doy cuenta de la expresión que tengo en la cara</p>
+<input type="radio" name="q31" value="1"> Verdadero
+<input type="radio" name="q31" value="0"> Falso
+
+<p>32. Int. Interpersonal: Me doy cuenta de las expresiones en la cara de otras personas</p>
+<input type="radio" name="q32" value="1"> Verdadero
+<input type="radio" name="q32" value="0"> Falso
+
+
+<p>33. Int. Intrapersonal:  Me mantengo "en contacto" con mis estados de ánimo. No me cuesta
+  identificarlos.
+  </p>
+<input type="radio" name="q33" value="1"> Verdadero
+<input type="radio" name="q33" value="0"> Falso
+
+<p>34. Int. Interpersonal: Me doy cuenta de los estados de ánimo de otros.</p>
+<input type="radio" name="q34" value="1"> Verdadero
+<input type="radio" name="q34" value="0"> Falso
+
+<p>35. Int. Interpersonal:  Me doy cuenta bastante bien de lo que otros piensan de mí.
+</p>
+<input type="radio" name="q35" value="1"> Verdadero
+<input type="radio" name="q35" value="0"> Falso
+</form>
+<button onclick="calcularPuntajes()" style="background-color: #4CAF50; /* Green */
+  border: 2px solid #000000; /* Contorno verde */
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 20px 2px 4px; /* Margen en la parte superior */
+  cursor: pointer;
+  border-radius: 10px;">¡Ver mis resultados!</button>
+
+
+</div>
+
+<style>
+  body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+  }
+
+  .container {
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 5px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  h1 {
+      text-align: center;
+      color: #ff0000;
+  }
+
+  h2 {
+      color: #ff0000;
+  }
+
+  h3 {
+      color: #ff0000;
+  }
+
+  p {
+      color: #000000;
+      margin-bottom: 10px;
+  }
+
+  .result {
+      background-color: #f9f9f9;
+      border-left: 4px solid #3498db;
+      padding: 10px;
+      margin-bottom: 10px;
+  }
+
+  .strongest {
+      font-weight: bold;
+      color: #3498db;
+  }
+</style>
+
+<div class="container">
+  <h1>Resultados del Test de Inteligencias Múltiples</h1>
+  <div id="results"></div>
+</div>
+
+<script>
+  function calcularPuntajes() {
+      const form = document.getElementById('quizForm');
+      const sections = {
+          'Inteligencia Verbal': {
+              questions: [9, 10, 17, 22, 30],
+              description: '¡Eres un comunicador excepcional! Tu habilidad para usar el lenguaje de manera efectiva te destaca en áreas como Derecho, Periodismo y Traducción e Interpretación.',
+              careers: 'Carreras relacionadas: Derecho, Periodismo, Traducción e Interpretación.'
+          },
+          'Inteligencia Lógico-matemática': {
+              questions: [5, 7, 15, 20, 25],
+              description: '¡Eres un genio analítico! Tu capacidad para usar el razonamiento lógico te abre puertas en Matemáticas, Física, Ingeniería y Economía.',
+              careers: 'Carreras relacionadas: Matemáticas, Física, Ingeniería, Economía.'
+          },
+          'Inteligencia Visual espacial': {
+              questions: [1, 11, 14, 23, 27],
+              description: '¡Tu visión es única! Tu capacidad para percibir el mundo visualmente te destaca en áreas como Arquitectura, Diseño Gráfico y Bellas Artes.',
+              careers: 'Carreras relacionadas: Arquitectura, Diseño Gráfico, Bellas Artes.'
+          },
+          'Inteligencia kinestésica-corporal': {
+              questions: [8, 16, 19, 21, 29],
+              description: '¡Eres un maestro del movimiento! Tu habilidad para usar el cuerpo te destaca en Danza, Deportes y Fisioterapia.',
+              careers: 'Carreras relacionadas: Danza, Deportes, Fisioterapia.'
+          },
+          'Inteligencia Musical-rítmica': {
+              questions: [3, 4, 13, 24, 28],
+              description: '¡Tu ritmo es incomparable! Tu sensibilidad musical te destaca en áreas como Música, Composición Musical y Producción Musical.',
+              careers: 'Carreras relacionadas: Música, Composición Musical, Producción Musical.'
+          },
+          'Inteligencia Intrapersonal': {
+              questions: [2, 6, 26, 31, 33],
+              description: '¡Conoces tu verdadero yo! Tu capacidad intrapersonal te destaca en Psicología, Coaching y Asesoramiento.',
+              careers: 'Carreras relacionadas: Psicología, Coaching, Asesoramiento.'
+          },
+          'Inteligencia Interpersonal': {
+              questions: [12, 18, 32, 34, 35],
+              description: '¡Eres un líder natural! Tu habilidad para relacionarte con otros te destaca en Educación, Trabajo Social y Recursos Humanos.',
+              careers: 'Carreras relacionadas: Educación, Trabajo Social, Recursos Humanos.'
+          }
+      };
+      let sectionScores = {
+          'Inteligencia Verbal': 0,
+          'Inteligencia Lógico-matemática': 0,
+          'Inteligencia Visual espacial': 0,
+          'Inteligencia kinestésica-corporal': 0,
+          'Inteligencia Musical-rítmica': 0,
+          'Inteligencia Intrapersonal': 0,
+          'Inteligencia Interpersonal': 0
+      };
+
+      for (let section in sections) {
+          sections[section].questions.forEach(question => {
+              const answer = form['q' + question].value;
+              sectionScores[section] += parseInt(answer);
+          });
+      }
+
+      let results = '';
+      let strongestSection = '';
+      let secondSection = '';
+      let highestScore = 0;
+      let secondScore = 0;
+      for (let section in sectionScores) {
+          let message = '';
+          if (sectionScores[section] === 5) {
+              message = '¡Eres excepcional en esta inteligencia! Sigue cultivando esta habilidad, ¡puede ser una fortaleza importante en tu vida!';
+          } else if (sectionScores[section] >= 4) {
+              message = '¡Tienes una habilidad marcada en esta inteligencia! Continúa desarrollándola para alcanzar tu máximo potencial.';
+          } else if (sectionScores[section] > 0) {
+              message = '¡Muestras cierta habilidad en esta inteligencia! Trabaja en mejorarla para desarrollarla aún más.';
+          } else {
+              message = 'No parece ser tu área más fuerte en este momento, pero ¡sigue siendo algo en lo que puedes mejorar con práctica y dedicación!';
+          }
+          results += `<div class="result"><h3>${section}</h3><p>${sections[section].description}</p><p><strong>Carreras relacionadas:</strong> ${sections[section].careers}</p><p><strong>Puntuación:</strong> ${sectionScores[section]}</p><p>${message}</p></div>`;
+          if (sectionScores[section] > highestScore) {
+              secondSection = strongestSection;
+              secondScore = highestScore;
+              strongestSection = section;
+              highestScore = sectionScores[section];
+          } else if (sectionScores[section] > secondScore) {
+              secondSection = section;
+              secondScore = sectionScores[section];
+          }
+      }
+
+      results += `<p class="strongest">¡Tu inteligencia mas increíble es  ${strongestSection} ! </p>`;
+      results += `<p class="second">¡También destacas en ${secondSection}! ¡Sigue desarrollándola y alcanzarás grandes logros!</p>`;
+
+      document.getElementById('results').innerHTML = results;
+  }
+</script>
+</body>
+</html>
